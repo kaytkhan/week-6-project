@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Card Game Using Vanilla JS</h1>
+    <button id="start_game">Start Game</button>
+    <di class="container">
+        <div class="computerPlayerdiv">
+            <div class="card_demo demo_card_1" data-value="45"></div>
+            <div class="playing_card playing_card_1 hide" data-value=0></div>
+        </div>
+        <div class="result"></div>
+        <div class="humanPlayerdiv">
+            <div class="card_demo demo_card_2">26</div>
+            <div class="playing_card playing_card_2 hide" data-value=0></div>
+        </div>
+
+    </div>
+    <script src="deck.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
